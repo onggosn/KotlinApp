@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Football League</string>
+    <string name="btnMatch">Matches</string>
+    <string name="favorites">Favorites</string>
+    <string name="search_match">Search Match</string>
+    <string name="home_team">Home Team</string>
+    <string name="btnTeams">Teams</string>
+    <string name="capacity">Capacity</string>
+    <string name="btnStanding">Standing</string>
+    <string name="search_team">searchTeam</string>
+</resources>

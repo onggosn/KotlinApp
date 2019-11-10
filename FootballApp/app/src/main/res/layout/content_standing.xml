@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+                    android:id="@+id/team"
+                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:text="Team"
+                    android:textColor="@android:color/black" />
+
+            <TextView
+                    android:id="@+id/play"
+                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    tools:text="PL"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="textEnd"/>
+
+            <TextView
+                    android:id="@+id/win"
+                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    tools:text="W"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="textEnd"/>
+
+            <TextView
+                    android:id="@+id/draw"
+                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    tools:text="D"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="textEnd"/>
+
+            <TextView
+                    android:id="@+id/loss"
+                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    tools:text="L"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="textEnd"/>
+
+            <TextView
+                    android:id="@+id/goals"
+                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    tools:text="G"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="textEnd"/>
+
+            <TextView
+                    android:id="@+id/goalsAgaints"
+                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    tools:text="GA"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="textEnd"/>
+
+            <TextView
+                    android:id="@+id/goalsDif"
+                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    tools:text="GD"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="textEnd"/>
+
+            <TextView
+                    android:id="@+id/points"
+                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    tools:text="PO"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="textEnd"/>
+        </TableRow>
+
+</TableLayout>

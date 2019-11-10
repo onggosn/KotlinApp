@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rvLeague" type="id"/>
+    <item name="badgesId" type="id"/>
+    <item name="tvLeagueName" type="id"/>
+    <item name="imgDesc" type="id"/>
+    <item name="tvLeagueNameDesc" type="id"/>
+    <item name="tvDesc" type="id"/>
+    <item name="tvWebDesc" type="id" />
+    <item name="btn_match" type="id" />
+    <item name="swipeRefresh" type="id" />
+    <item name="progressBar" type="id" />
+    <item name="view" type="id" />
+    <item name="leagueDesc" type="id" />
+    <item name="btn_team" type="id" />
+    <item name="btn_standing" type="id" />
+    <item name="idLinier" type="id" />
+</resources>

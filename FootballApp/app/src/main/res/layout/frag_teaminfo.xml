@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="16dp"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+            <TextView
+                    android:id="@+id/aboutSec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Team"
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="16dp"
+                    />
+
+            <TextView
+                    android:id="@+id/teamDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Description here..."
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/aboutSec"
+                    />
+
+            </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+            <TextView
+                    android:id="@+id/stadiumSec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stadium"
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="16dp"
+                    />
+
+            <ImageView
+                    android:id="@+id/imgStadium"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/stadiumSec"
+                    tools:background="@drawable/english_premier_league"
+                    android:layout_marginBottom="16dp"/>
+
+            <TextView
+                    android:id="@+id/strStadium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    tools:text="Emirates Stadium"
+                    android:textAlignment="center"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/imgStadium"
+                    />
+
+            <TextView
+                    android:id="@+id/stadiumLoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    tools:text="London"
+                    android:textAlignment="center"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/strStadium"
+                    />
+
+            <TextView
+                    android:id="@+id/stadiumCap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    tools:text="80000"
+                    android:textAlignment="center"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/stadiumLoc"
+                    />
+
+            <View
+                    android:id="@+id/lineStd"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="1px"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="18px"
+                    android:layout_below="@+id/stadiumCap"
+                    android:layout_margin="4dp"/>
+
+            <TextView
+                    android:id="@+id/stadiumDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Description Here..."
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/lineStd"
+                    />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+            <TextView
+                    android:id="@+id/jerseySec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jersey Team"
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="16dp"
+                    />
+
+            <ImageView
+                    android:id="@+id/imgJersey"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/jerseySec"
+                    tools:background="@drawable/english_premier_league" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
